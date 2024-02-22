@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ximg
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0073-tenant/tkrw-pr712-0075-0073-app/devfile-sample-ximg@sha256:547435841187b8835f20a608980da20dd59a816fbcefee30eb0e75ead6f6b345
         name: my-nodejs
         ports:
         - containerPort: 3001
